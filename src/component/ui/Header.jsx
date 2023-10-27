@@ -2,6 +2,7 @@
 import { Link } from "react-router-dom";
 import Typewriter from "typewriter-effect";
 
+
 const Header = () => {
   return (
     <div classNameName="text-white">
@@ -32,7 +33,8 @@ const Header = () => {
           </p>
           <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
             <Link
-              to=""
+              to="https://drive.google.com/file/d/1nW-s6mKYyJMpRy5KfZndXckB5LT9nJQd/view?usp=sharing"
+              target="_blank"
               className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900 btn-sm"
             >
               Get Resume
@@ -52,12 +54,13 @@ const Header = () => {
                 />
               </svg>
             </Link>
-            <a
-              href="#"
+            <Link
+              to="https://www.linkedin.com/in/rafiulalam07/"
+              target="_blank"
               className="inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400 btn-sm"
             >
-              Learn more
-            </a>
+              Conncet LinkedIn
+            </Link>
           </div>
         </div>
       </section>
