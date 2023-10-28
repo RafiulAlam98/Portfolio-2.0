@@ -1,25 +1,25 @@
 const projects = [
   {
     id: 1,
-    img: "",
+    img: [],
     description: "",
     technology: [],
   },
   {
     id: 2,
-    img: "",
+    img: [],
     description: "",
     technology: [],
   },
   {
     id: 3,
-    img: "",
+    img: [],
     description: "",
     technology: [],
   },
   {
     id: 4,
-    img: "",
+    img: [],
     description: "",
     technology: [],
   },
